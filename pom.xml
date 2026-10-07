@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.therealaqz</groupId>
+  <artifactId>deluxegradient-api-contracts</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>DeluxeGradient API Contracts</name>
+  <description>Open-source supported integration contracts and model types for DeluxeGradient.</description>
+  <url>https://github.com/therealaqz/DeluxeGradient-API</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/therealaqz/DeluxeGradient-API/blob/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>therealaqz</id>
+      <name>Aqz</name>
+      <url>https://github.com/therealaqz</url>
+      <roles><role>maintainer</role><role>security maintainer</role></roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/therealaqz/DeluxeGradient-API.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/therealaqz/DeluxeGradient-API.git</developerConnection>
+    <url>https://github.com/therealaqz/DeluxeGradient-API</url>
+  </scm>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <project.build.outputTimestamp>2026-10-07T00:00:00Z</project.build.outputTimestamp>
+    <maven.compiler.release>8</maven.compiler.release>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId><artifactId>annotations</artifactId>
+      <version>24.1.0</version><scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter</artifactId>
+      <version>5.11.2</version><scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <resources>
+      <resource>
+        <directory>${project.basedir}</directory>
+        <targetPath>META-INF</targetPath>
+        <includes><include>LICENSE</include></includes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.2</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-jar-plugin</artifactId>
+        <version>3.4.2</version>
+        <configuration>
+          <archive><manifestEntries><Automatic-Module-Name>me.therealaqz.deluxegradient.api</Automatic-Module-Name></manifestEntries></archive>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-source-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions><execution><id>sources</id><goals><goal>jar-no-fork</goal></goals></execution></executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.11.2</version>
+        <configuration><doclint>none</doclint></configuration>
+        <executions><execution><id>javadoc</id><goals><goal>jar</goal></goals></execution></executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

@@ -1,0 +1,108 @@
+{
+  "coordinate": "io.github.therealaqz:deluxegradient-api:1.0.0",
+  "source_url": "https://repo.maven.apache.org/maven2/io/github/therealaqz/deluxegradient-api/1.0.0/deluxegradient-api-1.0.0-sources.jar",
+  "source_jar_sha256": "ef4832c754b9970bb32f13925d6e86fd8db9254b1a7f142a55e230c3e8adba59",
+  "exported_on": "2026-10-07",
+  "files": {
+    "me/therealaqz/deluxegradient/api/DeluxeGradientApi.java": {
+      "upstream_sha256": "08d460e4b2ba0a656953f9f0fa5e82214fa21f4c6de7cf0f164febba5b253e8f",
+      "java_tokens_sha256": "117bee074a88c438af5ac02ed35b28f8d2d9788e236762eb0f7396b2651e5956"
+    },
+    "me/therealaqz/deluxegradient/api/DeluxeGradientProvider.java": {
+      "upstream_sha256": "e055eff32a7ae120858bd1b915c7a5fe9582c1ed3a8c900bd10b0c6bbe1385a9",
+      "java_tokens_sha256": "e394fa0f349d44a3d9e4ec99ea8b8ce2e6cff2a815ca76e4ea5ef488a0b764b6"
+    },
+    "me/therealaqz/deluxegradient/api/Slot.java": {
+      "upstream_sha256": "25c915ef376e485972ff745a31d9c4d9ee53b988618588b5ac10888593e19a41",
+      "java_tokens_sha256": "ded09e33f36b3c762c5f87d030b19593b1c97a3a17edcf3f344b97f24ae9c235"
+    },
+    "me/therealaqz/deluxegradient/api/color/ColorStop.java": {
+      "upstream_sha256": "2a5d00f6601e6b64d6b757fd266197ae6e3bf9d57e3cf80ea04f0f6084eb45d9",
+      "java_tokens_sha256": "3e50317310f5e919491c24b06de20a5e8a16ec03b97219046aacdb99602b96dc"
+    },
+    "me/therealaqz/deluxegradient/api/color/DeluxeColor.java": {
+      "upstream_sha256": "7504289ccac24d96190e6839d0ea506dd95caedd40b1e7710e50c7313adb7b25",
+      "java_tokens_sha256": "b5568e39162372df3b219f0ec0b9242685f8ecf6750722bbba3d25200c8610bc"
+    },
+    "me/therealaqz/deluxegradient/api/color/Gradient.java": {
+      "upstream_sha256": "43a23fd572498db26a02148170685e3f68daf1fd9edd7e2abb091e5ed02271cf",
+      "java_tokens_sha256": "72e220f99f70041e63f958b573271455aa208820df9660e98065142c777d0500"
+    },
+    "me/therealaqz/deluxegradient/api/color/Interpolation.java": {
+      "upstream_sha256": "dda8b31ac5e434a198d65af9815c39609c868e9f118b01ba019f0749c3e9148b",
+      "java_tokens_sha256": "e077ce753b5aad0f69812ae520af42d3a8f97404714175aae9aeeb74bbf8e842"
+    },
+    "me/therealaqz/deluxegradient/api/color/LegacyColor.java": {
+      "upstream_sha256": "c4e788041de795be5e8d044b624414635c58ec613176f01d5ed24a735eed17bd",
+      "java_tokens_sha256": "ffd8248d694067434c2b265d0fe88794a64c6fb776b4d6757df76023943787e0"
+    },
+    "me/therealaqz/deluxegradient/api/color/NamedColors.java": {
+      "upstream_sha256": "03c44816ac640bd59c7c4dfac5c6ec94d12538c57e7c9ba5cf56d4b293b71cb7",
+      "java_tokens_sha256": "e9ca022bd01b2ae51a1dd733fc629d0175e207611ef6d81a495a7f78a97d7789"
+    },
+    "me/therealaqz/deluxegradient/api/color/WaveSpec.java": {
+      "upstream_sha256": "f6da3633778dfdd55f7cc2f44e13bd6b804a7ce7e3497a34a3784d88822550c6",
+      "java_tokens_sha256": "b25879e7a38285e142357c38e5ade9c690373efe5cad432721ff77519e4e7138"
+    },
+    "me/therealaqz/deluxegradient/api/event/PlayerGradientChangeEvent.java": {
+      "upstream_sha256": "836c8ab50c9638dacc4a73ff6406111d2dae79af88fde7a3744b77177f12a64f",
+      "java_tokens_sha256": "79a6a73b301933a38df825eb5348bbc30589e34733fe8f465a727e7cc2e98131"
+    },
+    "me/therealaqz/deluxegradient/api/text/Decoration.java": {
+      "upstream_sha256": "b5b5e5084c63b9805692f64000ad49261f9f4eba20bac882614e02ecbd76d362",
+      "java_tokens_sha256": "89791d791976ca1ccf62a2986373c7c00e1d123597aad8eed20bfec9bab11a7a"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/ClickAction.java": {
+      "upstream_sha256": "e4986f0e8c3363c43ed87bfa42af8594e85208cf0c0c7967028086ca408bd382",
+      "java_tokens_sha256": "19b87abd40ea97db17c5de36f36d5c83cae792a8ed69be9b326baad1eab43141"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/ClickNode.java": {
+      "upstream_sha256": "439d61a239bfd4aa1c5f0c32fbc94158e46d0987017a81568dc0790961c67a88",
+      "java_tokens_sha256": "2e0d78ed3aeeded43759aff2f66d25c9dcfdb504d48dd1d9dbec58fd678b0a14"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/ColorNode.java": {
+      "upstream_sha256": "0c5da1ae7ffe5d2986de8c6656aae0027121e20d03c1bfc90d0850cd76123c8f",
+      "java_tokens_sha256": "d2ac52bb594b40441d4a50faa5378f9d07afae9254bc39ceb804e0c2cd227019"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/DecorationNode.java": {
+      "upstream_sha256": "5b79d30321c02d3e78f13f1ba86924e975ad91725161c13e277f2f7d0d76998b",
+      "java_tokens_sha256": "17a185c923e79c53c2e156dd52fd13ee5259e490c981b70c4a9578a790e10c1e"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/GradientNode.java": {
+      "upstream_sha256": "ef1d83ae672509b97c6ebebb0b38a9c69bcbf6d595b87a01a76afda27a1a929f",
+      "java_tokens_sha256": "c8e25181dfb1e209e9bea1f8b13a8fa43f64f282293d5b6f540784c8322dd795"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/GroupNode.java": {
+      "upstream_sha256": "d69a577020b3d3cf9ba78c4713d7b6c98ebb157e14b6a6a52887c778c9071349",
+      "java_tokens_sha256": "d96049160d04777e4acca3cd61db5960ab09fa0006952ac82850697dabbd5ae7"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/HoverNode.java": {
+      "upstream_sha256": "51d45900ce728d89fe89ca21ce77d648667a26547a83cd89e336bc2fa5251007",
+      "java_tokens_sha256": "093eb0ba7e213bf9f3ccf59b6c7b690aeb8dfd27eadfa7bb438ccb12b4da273a"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/Node.java": {
+      "upstream_sha256": "61dc953eeadceba529fdd1ea1afc2fb9274b170db564eedbd61e1be15e847b63",
+      "java_tokens_sha256": "87811b7bcc0b9aee44fd519ecba3b3a5fc2812d3f7dd319bae36c8be9204937b"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/NodeVisitor.java": {
+      "upstream_sha256": "8f0db502e1cda6ba5f8adbf55360c1e4cf4bd461d14ac824f6ba4c4a7bd421bb",
+      "java_tokens_sha256": "3118ac7b9875fa6f688a7eaa242ae30a40ff382ebb475673c2799cfccf3e5409"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/Nodes.java": {
+      "upstream_sha256": "fb60a02bc9c6417e0f8b9db52623b17b8f688d36d680f213ab7d1696286e27f7",
+      "java_tokens_sha256": "87f6c53c666bf4a355ec72e2c574d040153b203282a6266180c5bb5b76eb4748"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/PlaceholderNode.java": {
+      "upstream_sha256": "6b8be4a131c0818384b6748e9444b8ac6909e3f9e8bc8d9e3319087c4c6b49e9",
+      "java_tokens_sha256": "e7d743aef4193ef85d4f1c872aa7dd194955d5ec2767432406c4714e7a4e2f4d"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/ResetNode.java": {
+      "upstream_sha256": "6f50533f07a8484ecedf7084970adfcfb5d15e0dd933a55a9f78a7a12036622a",
+      "java_tokens_sha256": "d146a0c21999ad91c39e1adaae69918cccee423777b928f3ec487a6520b941a6"
+    },
+    "me/therealaqz/deluxegradient/api/text/tree/TextNode.java": {
+      "upstream_sha256": "e19515f807fed449c562b35d4ca89ab16f9ac8640190447abd0efb2f6ac6a865",
+      "java_tokens_sha256": "e733ae6e357e57c4c545ac943e97414636b6272a9986f8d5a29e067b979a479e"
+    }
+  }
+}
